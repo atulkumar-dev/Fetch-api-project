@@ -1,4 +1,4 @@
-fetch('https://dummyjson.com/qufafaotes')
+fetch('https://dummyjson.com/quotes')
 .then(response => console.log(response))
 .then(data =>{
     const list = document.getElementById("quotes-list");
